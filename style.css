@@ -1,28 +1,417 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset */
+
+
+/*
 body {
   font-family: sans-serif;
   background: lightgray;
+  font-size: 8.5pt;
 }
 
 h2 {
+  
   break-before: page;
+  // also try
+  // break-before: right;
+  // break-after: page;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+.two-col {
+  column-count: 3;
+  column-gap: 2em;
 }
 
 @media print {
   body {
-    background: white;
+    background: white ;
   }
 }
+*/
 
 @page {
   size: 5in 8in;
   margin-top: 0.25in;
-  margin-bottom: 0.5in;
+  
 }
 @page:left {
   margin-left: 0.25in;
   margin-right: 1in;
+/*
+@bottom-left {
+  content: counter(page);
+
+}
+*/
 }
 @page:right {
   margin-left: 1in;
   margin-right: 0.25in;
+}
+
+h2{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 37px;
+color: #FFF500;
+}
+
+p{
+  font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 9px;
+width: 120px;
+}
+
+
+.page1-1 {
+  position: absolute;
+width: 264px;
+height: 37px;
+left: 0px;
+top: 46px;
+}
+
+.page1-2 {
+  position: absolute;
+width: 264px;
+height: 37px;
+left: 0px;
+top: 83px;
+}
+
+.page1-3 {
+  position: absolute;
+width: 264px;
+height: 37px;
+left: 0px;
+top: 120px;
+}
+
+.article1 {
+  break-before: page;
+  position: absolute;
+width: 264px;
+height: 408px;
+left: 16px;
+top: 34px;
+}
+
+.shoe1 {
+  position: absolute;
+width: 551px;
+height: 220px;
+left: -217px;
+top: 344px;
+}
+
+
+.page2-1 {
+  position: absolute;
+  height: 518px;
+  left: 28px;
+  top: 39px;
+}
+
+.page2-2 {
+  position: absolute;
+height: 511px;
+left: 169px;
+top: 39px;
+}
+
+.page3-1 {
+  break-before: page;
+  position: absolute;
+  height: 511px;
+  left: 72px;
+  top: 39px;
+}
+
+.page3-2 {
+  position: absolute;
+height: 391px;
+left: 212px;
+top: 39px;
+}
+
+.shoe2 {
+  position: absolute;
+  position: absolute;
+  width: 293px;
+  height: 159px;
+  left: 67px;
+  top: 500px;
+}
+
+.shoe3 {
+  break-before: page;
+  position: absolute;
+  width: 650px;
+  height: 500px;
+  left: -126px;
+  top: 190px;
+}
+
+.page5-1 {
+  position: absolute;
+width: 120px;
+height: 511px;
+left: 72px;
+top: 39px;
+}
+
+.shoe4 {
+  break-before: page;
+  position: absolute;
+  width: 365px;
+  height: 194px;
+  left: 70px;
+  top: 400px;
+transform: rotate(-90deg);
+}
+
+.shoe5 {
+  break-before: page;
+  position: absolute;
+  width: 486px;
+  height: 649px;
+  left: -27px;
+  top: -48px;
+}
+
+.shoe6 {
+  break-before: page;
+  position: absolute;
+width: 795px;
+height: 527px;
+left: -218px;
+top: 96px;
+}
+
+.shoe7 {
+  break-before: page;
+  position: absolute;
+  width: 208px;
+  height: 231px;
+  left: 41px;
+  top: 33px;
+}
+
+.shoe8 {
+  position: absolute;
+  width: 249px;
+  height: 140px;
+  left: 51px;
+  top: 264px;
+}
+
+.shoe9 {
+  position: absolute;
+  width: 237px;
+  height: 145px;
+  left: 51px;
+  top: 423px;
+}
+
+.shoe10 {
+  break-before: page;
+  position: absolute;
+  width: 217px;
+  height: 230px;
+  left: 60px;
+  top: 41px;
+}
+
+.shoe11 {
+  position: absolute;
+  width: 243px;
+  height: 135px;
+  left: 60px;
+  top: 271px;
+}
+
+.shoe12 {
+  position: absolute;
+  width: 236px;
+  height: 152px;
+  left: 60px;
+  top: 415px;
+}
+
+.article2 {
+  break-before: page;
+  position: absolute;
+width: 264px;
+height: 408px;
+left: 16px;
+top: 34px;
+}
+
+.shoe13{
+  position: absolute;
+width: 270px;
+height: 173px;
+left: 13px;
+top: 385px;
+}
+
+.page10-1 {
+  position: absolute;
+width: 120px;
+height: 511px;
+left: 28px;
+top: 39px;
+}
+
+.shoe14{
+  break-before: page;
+  position: absolute;
+  width: 413px;
+  height: 598px;
+  left: -11px;
+  top: -10px;
+}
+
+.shoe15 {
+  break-before: page;
+  position: absolute;
+  width: 283px;
+  height: 173px;
+  left: 9px;
+  top: 70px;
+  
+}
+
+.shoe16 {
+  position: absolute;
+  width: 292px;
+  height: 178px;
+  left: 0px;
+  top: 344px;
+}
+
+.shoe17 {
+  position: absolute;
+width: 597px;
+height: 274px;
+left: -38px;
+top: 500px;
+}
+
+.article3 {
+  break-before: page;
+  position: absolute;
+width: 264px;
+height: 223px;
+left: 72px;
+top: 39px;
+}
+
+.page13-1 {
+  position: absolute;
+  width: 120px;
+  height: 511px;
+  left: 72px;
+  top: 39px;
+}
+
+.page13-2 {
+  position: absolute;
+  width: 120px;
+  height: 511px;
+  left: 211px;
+  top: 39px;
+}
+
+.shoe18 {
+  break-before: page;
+  position: absolute;
+  width: 209px;
+  height: 589px;
+  left: 41px;
+  top: 0px;
+}
+
+.page15-1 {
+  break-before: page;
+  position: absolute;
+width: 120px;
+height: 511px;
+left: 72px;
+top: 39px;
+}
+
+.shoe19 {
+  
+  position: absolute;
+width: 732px;
+height: 258px;
+left: 20px;
+top: 282px;
+}
+
+.shoe20 {
+  break-before: page;
+  position: absolute;
+width: 625px;
+height: 249px;
+left: -322px;
+top: 289px;
 }
