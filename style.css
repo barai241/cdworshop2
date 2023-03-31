@@ -84,6 +84,8 @@ p:first-child {
 @page {
   size: 5in 8in;
   margin-top: 0.25in;
+  bleed: 0.25in;
+  marks: crop;
   
 }
 @page:left {
@@ -205,7 +207,7 @@ top: 39px;
   position: absolute;
   width: 650px;
   height: 500px;
-  left: -126px;
+  left: -180px;
   top: 190px;
 }
 
@@ -309,7 +311,7 @@ top: 34px;
 width: 270px;
 height: 173px;
 left: 13px;
-top: 385px;
+top: 438px;
 }
 
 .page10-1 {
@@ -326,7 +328,7 @@ top: 39px;
   width: 413px;
   height: 598px;
   left: -11px;
-  top: -10px;
+  top: 50px;
 }
 
 .shoe15 {
@@ -344,7 +346,7 @@ top: 39px;
   width: 292px;
   height: 178px;
   left: 0px;
-  top: 344px;
+  top: 430px;
 }
 
 .shoe17 {
@@ -352,7 +354,7 @@ top: 39px;
 width: 597px;
 height: 274px;
 left: -38px;
-top: 500px;
+top: 400px;
 }
 
 .article3 {
@@ -386,7 +388,7 @@ top: 39px;
   width: 209px;
   height: 589px;
   left: 41px;
-  top: 0px;
+  top: 50px;
 }
 
 .page15-1 {
@@ -394,7 +396,7 @@ top: 39px;
   position: absolute;
 width: 120px;
 height: 511px;
-left: 0px;
+left: 20px;
 top: 39px;
 }
 
@@ -404,7 +406,7 @@ top: 39px;
 width: 732px;
 height: 258px;
 left: 20px;
-top: 282px;
+top: 360px;
 }
 
 .shoe20 {
