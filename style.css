@@ -157,7 +157,7 @@ top: 34px;
   position: absolute;
 width: 551px;
 height: 220px;
-left: -217px;
+left: -145px;
 top: 344px;
 }
 
@@ -180,14 +180,14 @@ top: 39px;
   break-before: page;
   position: absolute;
   height: 511px;
-  left: 72px;
+  left: 0px;
   top: 39px;
 }
 
 .page3-2 {
   position: absolute;
 height: 391px;
-left: 212px;
+left: 140px;
 top: 39px;
 }
 
@@ -196,7 +196,7 @@ top: 39px;
   position: absolute;
   width: 293px;
   height: 159px;
-  left: 67px;
+  left: -5px;
   top: 500px;
 }
 
@@ -213,7 +213,7 @@ top: 39px;
   position: absolute;
 width: 120px;
 height: 511px;
-left: 72px;
+left: 0px;
 top: 39px;
 }
 
@@ -222,7 +222,7 @@ top: 39px;
   position: absolute;
   width: 365px;
   height: 194px;
-  left: 70px;
+  left: -2px;
   top: 400px;
 transform: rotate(-90deg);
 }
@@ -360,7 +360,7 @@ top: 500px;
   position: absolute;
 width: 264px;
 height: 223px;
-left: 72px;
+left: 0px;
 top: 39px;
 }
 
@@ -368,7 +368,7 @@ top: 39px;
   position: absolute;
   width: 120px;
   height: 511px;
-  left: 72px;
+  left: 0px;
   top: 39px;
 }
 
@@ -376,7 +376,7 @@ top: 39px;
   position: absolute;
   width: 120px;
   height: 511px;
-  left: 211px;
+  left: 139px;
   top: 39px;
 }
 
@@ -394,7 +394,7 @@ top: 39px;
   position: absolute;
 width: 120px;
 height: 511px;
-left: 72px;
+left: 0px;
 top: 39px;
 }
 
